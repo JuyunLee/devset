@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import sys
 import urllib.request as urlreq
-from multiprocessing import Process, Queue
+from multiprocessing import Process
 import time
 
 def work(id, url, verbose):
@@ -26,7 +26,7 @@ if int(sys.argv[2]) > 500:
 
 print("\n Send reqeusts to " + sys.argv[1] + " " + sys.argv[2] + " times.")
 print(" Don't use this to attack somewhere without agreement\n")
-confirm = input(" Start this requests? [y/N] ")
+confirm = input(" Start these requests? [y/N] ")
 if confirm == "y":
     print()
     ps = [];
