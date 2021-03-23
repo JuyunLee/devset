@@ -1,4 +1,4 @@
-# devset
+# lazy_linuxer
 My toolkit for development  
 
 ## scp_helper  
