@@ -1,5 +1,5 @@
 # lazy_linuxer
-My toolkit for development  
+My toolkit    
 
 ## scp_helper  
 If you are bothered with type scp command  
