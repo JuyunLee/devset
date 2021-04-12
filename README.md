@@ -13,3 +13,4 @@ scp [host]@[ip]:[file] [filename] --> scp_helper download [file]
 ## traffic_test.py
 Send web requests with multiprocess to test traffic of your site  
 *don't use this to attack website without agreement  
+*issue : it dies when the request number is larger than 500. But I will not fix it until next usage.
